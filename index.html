@@ -1,0 +1,166 @@
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Steven Adler">
+    <meta name="keywords" content="Steven Adler, Webdevelopment, Portfolio">
+    <meta name="description" content="Portfolio von Steven Adler, Webdeveloper">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Julius+Sans+One&display=swap" rel="stylesheet">
+    <title>Portfolio || Steven Adler</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>&ltSteven Adler&gt</p>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="navigationButton"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#head">Home</a></li>
+                <li class="nav__item"><a href="#education">My Services</a></li>
+                <li class="nav__item"><a href="#about">About Me</a></li>
+                <li class="nav__item"><a href="#work">My Work</a></li>
+                <li class="nav__item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="head" id="head">
+        <h1 class="section__title section__title--head">
+            Hallo, ich bin <strong>Steven Adler</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--head">
+            Webdeveloper
+        </p>
+        <img class="head__img" src="/img/Foto.jpg" alt="">
+    </section>
+    
+    <section class="me" id="about">
+        <div class="about">
+            <h2 class="section__title section__title--about">Über mich</h2>
+            <p class="section__subtitle section__subtitle--about">Vom Physio zum Developer</p>
+            <div class="about__body">
+                <p>Während meines Studiums der angewandten Therapiewissenschaften habe ich das Coden für mich entdeckt. 
+                    Was mit etwas Neugier begann wurde sehr schnell sehr viel mehr. 
+                    Um nicht länger "nur" nebenher coden zu können, ist der Quereinstieg in die Webentwicklung der nächste Schritt für mich. 
+                    Derzeit stehe ich noch ganz am Anfang, das soll sich aber möglichst schnell ändern!</p>
+                <p class="about__body--experience">
+                    Im Rahmen verschiedener Fortbildungen und autodidaktischer Weiterbildung habe ich praktische Erfahrung mit folgenden Technologien sammeln können:
+                    <br>
+                    <br>
+                    HTML | CSS | JS | React.js | Node.js | Webpack | externe APIs
+                </p>
+                <a href="#work" class="btn">Projekte</a>
+            </div>
+            <img class="about__img" src="img/fotoHandstand.jpg" alt="">
+        </div>
+    </section>
+
+
+    <section class="work" id="work">
+        <h2 class="section__title section__title--work">Projekte</h2>
+        <p class="section__subtitle section__subtitle--work"></p>
+        <div class="portfolio">
+            <div class="portfolio__item meme">
+                <div class="portfolio__item--content">
+                    <p>Meme Generator</p>
+                    <p class="description">HTML | CSS | JS | React</p>
+                    <a target="_blank" class="btn" href="https://github.com/stadler-pt/memegenerator">Zum Code</a>
+                    <a target="_blank" class="btn" href="https://stadler-pt.github.io/memegenerator/">Jetzt testen</a>
+                </div>
+            </div>
+
+            <div class="portfolio__item travel">
+                <div class="portfolio__item--content">
+                    <p>Holiday Weather</p>
+                    <p class="description">HTML | CSS | JS | Node | Express | Webpack | API</p>
+                    <a target="_blank" class="btn" href="https://github.com/stadler-pt/travelweather">Zum Code</a>
+                </div>
+            </div>
+
+            <div class="portfolio__item starship">
+                <div class="portfolio__item--content">
+                    <p>RentAStarship</p>
+                    <p class="description">HTML | CSS | JS | React | API</p>
+                    <a target="_blank" class="btn" href="https://github.com/stadler-pt/reactRentAStarship">Zum Code</a>
+                    <a target="_blank" class="btn" href="https://stadler-pt.github.io/reactRentAStarship/#/">Jetzt testen</a>
+                </div>
+            </div>
+
+            <div class="portfolio__item game">
+                <div class="portfolio__item--content">
+                    <p>Schnick Schnack Schnuck</p>
+                    <p class="description">HTML | CSS | JS</p>
+                    <a target="_blank" class="btn" href="https://github.com/stadler-pt/FrontendMentorRockPaperScissors">Zum Code</a>
+                    <a target="_blank" class="btn" href="https://stadler-pt.github.io/FrontendMentorRockPaperScissors/">Jetzt testen</a>
+                </div>
+            </div>
+            
+            <div class="portfolio__item weather">
+                <div class="portfolio__item--content">
+                    <p>Wetter Info</p>
+                    <p class="description">HTML | CSS | JS | Node | Express | API</p>
+                    <a target="_blank" class="btn" href="https://github.com/stadler-pt/weatherapp">Zum Code</a>
+                </div>
+            </div>
+
+            <div class="portfolio__item multipage">
+                <div class="portfolio__item--content">
+                    <p>Frontendmentor Multipage</p>
+                    <p class="description">HTML | SCSS | JS | Gulp</p>
+                    <a target="_blank" class="btn" href="https://github.com/stadler-pt/multipage">Zum Code</a>
+                    <a target="_blank" class="btn" href="https://stevenadlermultipage.netlify.app/">Jetzt testen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="section__title section__title--education">
+            Weiterbildungen
+        </h2>
+        <div class="courses">
+            <div class="course">
+                <h3>HarvardX</h3>
+                <p>
+                    CS50's Introduction to Computer Science
+                </p>
+                <a target="_blank" href="https://www.edx.org/course/cs50s-introduction-to-computer-science" class="btn">Curriculum</a>
+                <a target="_blank" href="https://courses.edx.org/certificates/fb355fe681de433dafbbfdafed638435" class="btn">Zertifikat</a>
+            </div>
+
+            <div class="course">
+                <h3>Udacity</h3>
+                <p>
+                    Front End Web Developer
+                </p>
+                <a target="_blank" href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011" class="btn">Curriculum</a>
+                <a target="_blank" href="https://confirm.udacity.com/LK5F9KM4" class="btn">Zertifikat</a>
+            </div>
+
+            <div class="course">
+                <h3>W3C</h3>
+                <p>
+                    Front-End Web Developer
+                </p>
+                <a target="_blank" href="https://www.edx.org/professional-certificate/front-end-web-developer-9" class="btn">Curriculum</a>
+                <a target="_blank" href="https://credentials.edx.org/credentials/4bc0372fd77b462194cd227927278d32/" class="btn">Zertifikat</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <a href="mailto:steven_adler@gmx.de" class="footer__link">steven_adler@gmx.de</a>
+        <div class="social">
+            <a target="_blank" href="https://github.com/stadler-pt" class="footer__link"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://de.linkedin.com/in/steven-adler-aa2aba122?trk=people-guest_people_search-card" class="footer__link"><i class="fab fa-linkedin-in"></i></a>
+        </div>  
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2336d7bb41.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
