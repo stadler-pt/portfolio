@@ -322,6 +322,10 @@ header {
     color: var(--color-light);   
 }
 
+.about__body {
+    text-align: justify;
+}
+
 .about__body .btn {
     margin: 3em 0;
 }
@@ -329,6 +333,7 @@ header {
 .about__img {
     opacity: 0;
     transition: opacity 1s ease;
+    margin-left: 1em;
 }
 
 .about__body--experience {
